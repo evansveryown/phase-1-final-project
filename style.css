@@ -26,3 +26,9 @@ header {
   cursor: pointer;
   transition: transform 0.2s;
 }
+
+.country-flag {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
