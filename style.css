@@ -51,3 +51,12 @@ header {
   justify-content: center;
   z-index: 999;
 }
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
