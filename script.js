@@ -49,3 +49,10 @@ fetch('https://restcountries.com/v3.1/all?fields=name,capital,region,population,
 closeBtn.addEventListener('click', () => {
   modal.classList.add('hidden');
 });
+
+// Close on outside click
+window.addEventListener('click', e => {
+  if (e.target === modal) {
+    modal.classList.add('hidden');
+  }
+});
