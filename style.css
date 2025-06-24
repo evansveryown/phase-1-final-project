@@ -32,3 +32,9 @@ header {
   height: auto;
   border-radius: 8px;
 }
+
+.country-name {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-align: center;
+}
