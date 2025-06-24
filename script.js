@@ -44,3 +44,8 @@ fetch('https://restcountries.com/v3.1/all?fields=name,capital,region,population,
     container.innerHTML = `<p>Error loading country data.</p>`;
     console.error(error);
   });
+
+  // Close Modal
+closeBtn.addEventListener('click', () => {
+  modal.classList.add('hidden');
+});
