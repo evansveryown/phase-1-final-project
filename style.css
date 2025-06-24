@@ -10,3 +10,10 @@ header {
   padding: 1rem;
   text-align: center;
 }
+
+#countries-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
